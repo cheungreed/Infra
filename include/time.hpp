@@ -1,6 +1,6 @@
 /*
 **	********************************************************************************
-**	File		: Time.hpp
+**	File		: time.h
 **	Description	: 
 **	Modify		: 2019/12/4		zhangqiang		Create the file
 **	********************************************************************************
@@ -9,6 +9,7 @@
 
 #include <ctime>
 #include <string>
+#include "time.hpp"
 
 namespace Zilu {
 namespace Infra {
