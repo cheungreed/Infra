@@ -8,6 +8,8 @@
 */
 #pragma once
 #include <stdio.h>
+#include <cstdint>
+#include <string>
 
 namespace Zilu {
 namespace Infra {
@@ -21,6 +23,9 @@ int warnf(const char* format, ...);
 int errorf(const char* format, ...);
 
 int fatalf(const char* format, ...);
+
+int setLogLevel(uint32_t level);
+int setLogPath(const std::string& path, const std::string& name);
 
 }
 }
